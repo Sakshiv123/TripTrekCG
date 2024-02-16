@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Travel agency website</title>
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+          <!--font awesome link-->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+                    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+                    crossorigin="anonymous" referrerpolicy="no-referrer" />
+          <!--css file link-->
+
+          <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+          <header>
+
+                    <div id="menu-bar" class="fa-solid fa-bars"></div>
+
+                    <a href="#" class="logo"><span>T</span>ripTrekCG</a>
+                    <nav class="navbar">
+                              <a href="#home">home</a>
+                              <a href="#book">book</a>
+                              <a href="#packages">packages</a>
+                              <a href="#services">services</a>
+                              <a href="#gallery">gallery</a>
+                              <a href="#review">review</a>
+                              <a href="#contact">contact</a>
+                              <a href="#location">location</a>
+                    </nav>
+
+                    <div class="icons">
+                              <i class="fa-solid fa-magnifying-glass" id="search-btn"></i>
+                              <i class="fa-solid fa-user" id="login-btn"></i>
+                    </div>
+
+                    <form action="" class="search-bar-container">
+                              <input type="search" id="search-bar" placeholder="search here.." />
+                              <label for="search-bar" class="fa-solid fa-magnifying-glass"></label>
+                    </form>
+          </header>
+          <!--header section sends-->
+
+          <!--login from container-->
+          <div class="login-form-container">
+
+                    <i class="fa-solid fa-xmark" id="form-close"></i>
+
+                    <form action="">
+                              <h3>login</h3>
+                              <input type="email" class="box" placeholder="enter your email">
+                              <input type="password" class="box" placeholder="enter your password">
+                              <input type="submit" value="login now" class="btn">
+                              <input type="checkbox" id="remember">
+                              <label for="remember">remember me</label>
+                              <p>forget password? <a href="#">click here</a></p>
+                              <p>don't have an account? <a href="#">register now</a></p>
+
+                    </form>
+          </div>
+
+          <!-- home section starts -->
+
+          <section class="home" id="home">
+
+                    <div class="content">
+                              <h3>adventure is worthwhile</h3>
+                              <p>discovery new places with us,adventure awaits</p>
+                              <a href="#" class="btn">discover more</a>
+                    </div>
+                    <div class="controls">
+                              <span class="vid-btn active" data-src="images/vid1.mp4"></span>
+                              <span class="vid-btn" data-src="images/vid2.mp4"></span>
+                              <span class="vid-btn" data-src="images/vid3.mp4"></span>
+                              <span class="vid-btn" data-src="images/vid4.mp4"></span>
+                              <span class="vid-btn" data-src="images/vid5.mp4"></span>
+                    </div>
+                    <div class="video-container">
+                              <video src="images/vid1.mp4" id="video-slider" loop autoplay muted></video>
+                    </div>
+          </section>
+
+          <!-- home section ends -->
+
+          <!--book section starts-->
+          <section class="book" id="book">
+                    <h1 class="heading">
+                              <span>b</span>
+                              <span>o</span>
+                              <span>o</span>
+                              <span>k</span>
+                              <span class="space"></span>
+                              <span>n</span>
+                              <span>o</span>
+                              <span>w</span>
+                    </h1>
+
+                    <div class="row">
+
+                              <div class="image">
+                                        <img src="images/booking.avif" alt="">
+                              </div>
+
+                              <form action="">
+                                        <div class="inputBox">
+                                                  <h3>where to</h3>
+                                                  <input type="text" placeholder="place name">
+                                        </div>
+                                        <div class="inputBox">
+                                                  <h3>how many</h3>
+                                                  <input type="number" placeholder="number of guests">
+                                        </div>
+                                        <div class="inputBox">
+                                                  <h3>arrivals</h3>
+                                                  <input type="date">
+                                        </div>
+                                        <div class="inputBox">
+                                                  <h3>leaving</h3>
+                                                  <input type="date">
+                                        </div>
+                                        <input type="submit" class="btn" value="book now">
+                              </form>
+                    </div>
+          </section>
+
+          <!-- book section ends  -->
+
+          <!-- packages section start  -->
+          <section class="packages" id="packages">
+                    <h1 class="heading">
+                              <span>p</span>
+                              <span>a</span>
+                              <span>c</span>
+                              <span>k</span>
+                              <span>a</span>
+                              <span>g</span>
+                              <span>e</span>
+                              <span>s</span>
+                    </h1>
+
+                    <!-- package section ends  -->
+                    <div class="box-container">
+
+                              <div class="box">
+                                        <img src="images/bhilai.jpg" alt="">
+
+                                        <div class="content">
+                                                  <h3><i class="fa-solid fa-location-dot"></i>bhilai</h3>
+                                                  <p>A culturally profound city, Bhilai is a planned city situated in
+                                                            Durg District, 25 km from capital city Raipur. The city
+                                                            is mainly known for Bhilai Steel Plant (SAIL), one of the
+                                                            largest steel plants in India.
+                                                  </p>
+                                                  <div class="stars">
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-regular fa-star"></i>
+                                                  </div>
+                                                  <div class="price"> Rs30000 <span> Rs40000 </span></div>
+                                                  <a href="#" class="btn">book now</a>
+                                        </div>
+                              </div>
+
+
+
+                              <div class="box">
+                                        <img src="images/DHAMTARI.jpg">
+
+                                        <div class="content">
+                                                  <h3><i class="fa-solid fa-location-dot"></i>dhamtari</h3>
+                                                  <p>Dhamtari's population was 17,278 in 1955.At that time, the town was
+                                                            part of
+                                                            Raipur District in the state of Madhya
+                                                            Pradesh.
+                                                  </p>
+                                                  <div class="stars">
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                  </div>
+                                                  <div class="price"> Rs40000 <span> Rs60000 </span></div>
+                                                  <a href="#" class="btn">book now</a>
+                                        </div>
+                              </div>
+
+
+                              <div class="box">
+
+                                        <img src="images/mainpartjpg.jpg" alt="">
+
+                                        <div class="content">
+                                                  <h3><i class="fa-solid fa-location-dot"></i>mainpart</h3>
+                                                  <p>Mainpat is a small hill station located in the Surguja district
+                                                            of Chhattisgarh state in India.It is also known as the
+                                                            “Mini Tibet” of India because of its significant Tibetan
+                                                            refugee population.
+                                                  </p>
+                                                  <div class="stars">
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                  </div>
+                                                  <div class="price"> Rs30000 <span> Rs40000 </span></div>
+                                                  <a href="#" class="btn">book now</a>
+                                        </div>
+                              </div>
+
+                              <div class="box">
+                                        <img src="images/RAIPUR.jpg" alt="">
+                                        <div class="content">
+                                                  <h3><i class="fa-solid fa-location-dot"></i>raipur</h3>
+                                                  <p>Raipur, officially Atal Nagar-Nava Raipur,[1] is a planned
+                                                            city in Indian state of Chhattisgarh. The city is meant
+                                                            to replace Raipur as the capital of Chhattisgarh.[2][3] The
+                                                            Government of Chhattisgarh is at Naya Raipur. </p>
+                                                  <div class="stars">
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                  </div>
+                                                  <div class="price"> Rs60000 <span> Rs80000 </span></div>
+                                                  <a href="#" class="btn">book now</a>
+                                        </div>
+                              </div>
+
+                              <div class="box">
+                                        <img src="images/JAGDALPUR.jpg" alt="">
+                                        <div class="content">
+                                                  <h3><i class="fa-solid fa-location-dot"></i>Jagdalpur</h3>
+                                                  <p>Jagdalpur is a city in Bastar district in the Indian state of
+                                                            Chhattisgarh. Jagdalpur hosts one of 52 shakti peeths
+                                                            called Danteswari Shakti Peeth and also has religiously
+                                                            significant shiv linga in Kotumsar Cave.</p>
+
+                                                  <div class="stars">
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-regular fa-star"></i>
+                                                  </div>
+                                                  <div class="price"> Rs30000 <span> Rs40000 </span></div>
+                                                  <a href="#" class="btn">book now</a>
+                                        </div>
+                              </div>
+                              <div class="box">
+                                        <img src="images/sirpur.jpg" alt="">
+                                        <div class="content">
+                                                  <h3><i class="fa-solid fa-location-dot"></i>sirpur</h3>
+                                                  <p>Sirpur holds immense significance as an archaeological site,
+                                                            bearing the remnants of various dynasties and civilizations
+                                                            that once flourished here.
+                                                  </p>
+
+                                                  <div class="stars">
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-regular fa-star"></i>
+                                                  </div>
+                                                  <div class="price">Rs30000<span>Rs50000</span></div>
+                                                  <a href="#" class="btn">book now</a>
+                                        </div>
+                              </div>
+
+                              <div class="box">
+                                        <img src="images/DANTEWADA.jpg" alt="">
+                                        <div class="content">
+                                                  <h3><i class="fa-solid fa-location-dot"></i>dhantewada</h3>
+                                                  <p>Dantewada recently came into being, in 1998, after the formation of
+                                                            Chattisgarh from Madhya Pradesh. Situated in the
+                                                            Bastar district. </p>
+
+                                                  <div class="stars">
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-regular fa-star"></i>
+                                                  </div>
+                                                  <div class="price">Rs30000<span>Rs40000</span></div>
+                                                  <a href="#" class="btn">book now</a>
+                                        </div>
+                              </div>
+                              <div class="box">
+                                        <img src="images/bhoramdev.jpg" alt="">
+                                        <div class="content">
+                                                  <h3><i class="fa-solid fa-location-dot"></i>bhoramdev</h3>
+                                                  <p>The Bhoramdeo Temple bears a striking resemblance to the Sun Temple
+                                                            of Konark and is believed to have been constructed
+                                                            during the 7th to 12th century.</p>
+
+                                                  <div class="stars">
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-regular fa-star"></i>
+                                                  </div>
+                                                  <div class="price">Rs20000<span>Rs30000</span></div>
+                                                  <a href="#" class="btn">book now</a>
+                                        </div>
+                              </div>
+
+                              <div class="box">
+                                        <img src="images/ghatarani waterfall.jpg" alt="">
+                                        <div class="content">
+                                                  <h3><i class="fa-solid fa-location-dot"></i>ghatarani waterfall</h3>
+                                                  <p>Ghatarani Waterfalls is a favourite picnic spot located in the
+                                                            Raipur district of Chhattisgarh. It is also the biggest
+                                                            waterfalls in the state.</p>
+
+                                                  <div class="stars">
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-regular fa-star"></i>
+                                                  </div>
+                                                  <div class="price">Rs30000<span>Rs50000</span></div>
+                                                  <a href="#" class="btn">book now</a>
+                                        </div>
+                              </div>
+                              <div class="box">
+                                        <img src="images/kangar ghati.jpg" alt="">
+                                        <div class="content">
+                                                  <h3><i class="fa-solid fa-location-dot"></i>khagar ghati</h3>
+                                                  <p>
+                                                            Known as one of the densest national parks in India, the
+                                                            Kanger Ghati National Park offers a rich biodiversity,
+                                                            breathtaking landscapes, natural waterfalls, beautiful
+                                                            limestone caves.</p>
+
+                                                  <div class="stars">
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                  </div>
+                                                  <div class="price">Rs40000<span>Rs50000</span></div>
+                                                  <a href="#" class="btn">book now</a>
+                                        </div>
+                              </div>
+                              <div class="box">
+                                        <img src="images/chirmiri.jpg" alt="">
+                                        <div class="content">
+                                                  <h3><i class="fa-solid fa-location-dot"></i>chirmiri</h3>
+                                                  <p>Chirmiri is a beautiful hill station in the Koriya district of
+                                                            Chhattisgarh. Chirimiri or Chirmiri is referred to as the
+                                                            ‘Jannat/Heaven of Chhattisgarh’.</p>
+
+                                                  <div class="stars">
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                  </div>
+                                                  <div class="price">Rs60000<span>Rs80000</span></div>
+                                                  <a href="#" class="btn">book now</a>
+                                        </div>
+                              </div>
+                              <div class="box">
+                                        <img src="images/malhar.jpg" alt="">
+                                        <div class="content">
+                                                  <h3><i class="fa-solid fa-location-dot"></i>malhar</h3>
+                                                  <p>Malhar is Chhattisgarh’s most historic town and is of utmost
+                                                            archaeological prominence.</p>
+
+                                                  <div class="stars">
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-regular fa-star"></i>
+                                                  </div>
+                                                  <div class="price">Rs50000<span>Rs60000</span></div>
+                                                  <a href="#" class="btn">book now</a>
+                                        </div>
+                              </div>
+                              <div class="box">
+                                        <img src="images/purkhauti muktangan.jfif" alt="">
+                                        <div class="content">
+                                                  <h3><i class="fa-solid fa-location-dot"></i>purkhauti muktangan</h3>
+                                                  <p>The Purkhauti Muktangan has been developed by the Tourism Ministry
+                                                            of the Chhattisgarh Government in Naya Raipur</p>
+
+                                                  <div class="stars">
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-regular fa-star"></i>
+                                                  </div>
+                                                  <div class="price">Rs60000<span>Rs70000</span></div>
+                                                  <a href="#" class="btn">book now</a>
+                                        </div>
+                              </div>
+                              <div class="box">
+                                        <img src="images/rajim.jpg" alt="">
+                                        <div class="content">
+                                                  <h3><i class="fa-solid fa-location-dot"></i>rajim</h3>
+                                                  <p>Rajim is considered the perfect place to witness Chhattisgarh’s
+                                                            rich cultural heritage.</p>
+
+                                                  <div class="stars">
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-regular fa-star"></i>
+                                                  </div>
+                                                  <div class="price">Rs40000<span>Rs60000</span></div>
+                                                  <a href="#" class="btn">book now</a>
+                                        </div>
+                              </div>
+                              <div class="box">
+                                        <img src="images/Chitrakot.jpg" alt="">
+                                        <div class="content">
+                                                  <h3><i class="fa-solid fa-location-dot"></i>chitrakot</h3>
+                                                  <p>Chitrakote is popularly known as the Niagara of India, because of
+                                                            its width. Situated in the west side of Jagdalpur in
+                                                            the Bastar District of Chhattisgarh,</p>
+
+                                                  <div class="stars">
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <i class="fa-regular fa-star"></i>
+                                                  </div>
+                                                  <div class="price">Rs20000<span>Rs40000</span></div>
+                                                  <a href="#" class="btn">book now</a>
+                                        </div>
+                              </div>
+                    </div>
+          </section>
+          <!-- packages section ends -->
+
+          <!-- services section starts  -->
+
+          <section class="services" id="services">
+                    <h1 class="heading">
+                              <span>s</span>
+                              <span>e</span>
+                              <span>r</span>
+                              <span>v</span>
+                              <span>i</span>
+                              <span>c</span>
+                              <span>e</span>
+                              <span>s</span>
+                    </h1>
+                    <div class="box-container">
+
+                              <div class="box">
+                                        <i class="fa-solid fa-hotel"></i>
+                                        <h3>affordable hotel</h3>
+                                        <p>hotels are very cheap and affordable.</p>
+                              </div>
+
+                              <div class="box">
+                                        <i class="fa-solid fa-utensils"></i>
+                                        <h3>utensils</h3>
+                                        <p>Food services and catering is very good.</p>
+                              </div>
+                              <div class="box">
+                                        <i class="fa-solid fa-bullhorn"></i>
+                                        <h3>safety guide</h3>
+                                        <p> Safety is the first most priority of any person.</p>
+                              </div>
+                              <div class="box">
+                                        <i class="fa-solid fa-globe"></i>
+                                        <h3>around the state</h3>
+                                        <p> You can travel the state very easily.</p>
+                              </div>
+                              <div class="box">
+                                        <i class="fa-solid fa-plane"></i>
+                                        <h3>fastest travel</h3>
+                                        <p>This help in planning your trip very fast.</p>
+                              </div>
+                              <div class="box">
+                                        <i class="fa-solid fa-person-hiking"></i>
+                                        <h3>adventures</h3>
+                                        <p>You can experience many adventures things.</p>
+                              </div>
+                    </div>
+          </section>
+          <!-- service section ends  -->
+
+          <!-- Gallery section starts  -->
+          <section class="gallery" id="gallery">
+                    <h1 class="heading">
+                              <span>g</span>
+                              <span>a</span>
+                              <span>l</span>
+                              <span>l</span>
+                              <span>e</span>
+                              <span>r</span>
+                              <span>y</span>
+                    </h1>
+
+                    <div class="box-container">
+                              <div class="box">
+                                        <img src="images/g1.jpg" alt="">
+                                        <div class="content">
+                                                  <h3>amazing places</h3>
+                                                  <a href="#" class="btn">see more</a>
+                                        </div>
+                              </div>
+                              <div class="box">
+                                        <img src="images/g2.jpg" alt="">
+                                        <div class="content">
+                                                  <h3>amazing places</h3>
+                                                  <a href="#" class="btn">see more</a>
+                                        </div>
+                              </div>
+                              <div class="box">
+                                        <img src="images/g3.jpg" alt="">
+                                        <div class="content">
+                                                  <h3>amazing places</h3>
+                                                  <a href="#" class="btn">see more</a>
+                                        </div>
+                              </div>
+                              <div class="box">
+                                        <img src="images/g4.jpg" alt="">
+                                        <div class="content">
+                                                  <h3>amazing places</h3>
+                                                  <a href="#" class="btn">see more</a>
+                                        </div>
+                              </div>
+                              <div class="box">
+                                        <img src="images/g5.jpg" alt="">
+                                        <div class="content">
+                                                  <h3>amazing places</h3>
+                                                  <a href="#" class="btn">see more</a>
+                                        </div>
+                              </div>
+                              <div class="box">
+                                        <img src="images/g6.jpg" alt="">
+                                        <div class="content">
+                                                  <h3>amazing places</h3>
+                                                  <a href="#" class="btn">see more</a>
+                                        </div>
+                              </div>
+                              <div class="box">
+                                        <img src="images/g7.jpg" alt="">
+                                        <div class="content">
+                                                  <h3>amazing places</h3>
+                                                  <a href="#" class="btn">see more</a>
+                                        </div>
+                              </div>
+                              <div class="box">
+                                        <img src="images/g8.jpg" alt="">
+                                        <div class="content">
+                                                  <h3>amazing places</h3>
+                                                  <a href="#" class="btn">see more</a>
+                                        </div>
+                              </div>
+                              <div class="box">
+                                        <img src="images/g9.jpg" alt="">
+                                        <div class="content">
+                                                  <h3>amazing places</h3>
+                                                  <a href="#" class="btn">see more</a>
+                                        </div>
+                              </div>
+                              <div class="box">
+                                        <img src="images/g10.jpg" alt="">
+                                        <div class="content">
+                                                  <h3>amazing places</h3>
+                                                  <a href="#" class="btn">see more</a>
+                                        </div>
+                              </div>
+                              <div class="box">
+                                        <img src="images/g11.jpg" alt="">
+                                        <div class="content">
+                                                  <h3>amazing places</h3>
+                                                  <a href="#" class="btn">see more</a>
+                                        </div>
+                              </div>
+                              <div class="box">
+                                        <img src="images/g12.jpg" alt="">
+                                        <div class="content">
+                                                  <h3>amazing places</h3>
+                                                  <a href="#" class="btn">see more</a>
+                                        </div>
+                              </div>
+                              <div class="box">
+                                        <img src="images/g13.jpg" alt="">
+                                        <div class="content">
+                                                  <h3>amazing places</h3>
+                                                  <a href="#" class="btn">see more</a>
+                                        </div>
+                              </div>
+                              <div class="box">
+                                        <img src="images/g14.jpg" alt="">
+                                        <div class="content">
+                                                  <h3>amazing places</h3>
+                                                  <a href="#" class="btn">see more</a>
+                                        </div>
+                              </div>
+                              <div class="box">
+                                        <img src="images/g15.jpg" alt="">
+                                        <div class="content">
+                                                  <h3>amazing places</h3>
+                                                  <a href="#" class="btn">see more</a>
+                                        </div>
+                              </div>
+
+                    </div>
+          </section>
+          <!-- Gallery section ends  -->
+
+          <!-- review section starts  -->
+          <section class="review" id="review">
+                    <h1 class="heading">
+                              <span>r</span>
+                              <span>e</span>
+                              <span>v</span>
+                              <span>i</span>
+                              <span>e</span>
+                              <span>w</span>
+                    </h1>
+
+                    <div class="swiper-container review-slider">
+
+                              <div class="swiper-wrapper">
+
+                                        <div class="swiper-slide">
+                                                  <div class="box">
+                                                            <img src="images/p1.png" alt="">
+                                                            <h3>john deo</h3>
+                                                            <p>This is the 1st time we have booked a holiday with
+                                                                      Travelonline and based on our experience this time
+                                                                      will certainly
+                                                                      have no hesitation booking another. Prices,
+                                                                      service and holiday options were excellent.</p>
+                                                            <div class="stars">
+                                                                      <i class="fa-solid fa-star"></i>
+                                                                      <i class="fa-solid fa-star"></i>
+                                                                      <i class="fa-solid fa-star"></i>
+                                                                      <i class="fa-solid fa-star"></i>
+                                                                      <i class="fa-regular fa-star"></i>
+                                                            </div>
+                                                  </div>
+
+                                        </div>
+                                        <div class="swiper-slide">
+                                                  <div class="box">
+                                                            <img src="images/p2.png" alt="">
+                                                            <h3>peter cox</h3>
+                                                            <p>This is the 1st time we have booked a holiday with
+                                                                      Travelonline and based on our experience this time
+                                                                      will certainly
+                                                                      have no hesitation booking another. Prices,
+                                                                      service and holiday options were excellent.</p>
+                                                            <div class="stars">
+                                                                      <i class="fa-solid fa-star"></i>
+                                                                      <i class="fa-solid fa-star"></i>
+                                                                      <i class="fa-solid fa-star"></i>
+                                                                      <i class="fa-solid fa-star"></i>
+                                                                      <i class="fa-regular fa-star"></i>
+                                                            </div>
+                                                  </div>
+
+                                        </div>
+
+
+                                        <div class="swiper-slide">
+                                                  <div class="box">
+                                                            <img src="images/p3.png" alt="">
+                                                            <h3>joey tucker</h3>
+                                                            <p>With the uncertainty with cyclone Kirrily all our
+                                                                      enquiries were answered promptly with options if
+                                                                      required. Will
+                                                                      definitely be using you again for our future
+                                                                      travels
+                                                            </p>
+
+                                                            <div class="stars">
+                                                                      <i class="fa-solid fa-star"></i>
+                                                                      <i class="fa-solid fa-star"></i>
+                                                                      <i class="fa-solid fa-star"></i>
+                                                                      <i class="fa-solid fa-star"></i>
+                                                                      <i class="fa-regular fa-star"></i>
+                                                            </div>
+                                                  </div>
+
+                                        </div>
+                                        <div class="swiper-slide">
+                                                  <div class="box">
+                                                            <img src="images/p4.png" alt="">
+                                                            <h3>gloria hicks</h3>
+                                                            <p>Great service, easy to communicate would definitely
+                                                                      recommend travel online everything ran so smoothly
+                                                            </p>
+
+                                                            <div class="stars">
+                                                                      <i class="fa-solid fa-star"></i>
+                                                                      <i class="fa-solid fa-star"></i>
+                                                                      <i class="fa-solid fa-star"></i>
+                                                                      <i class="fa-solid fa-star"></i>
+                                                                      <i class="fa-regular fa-star"></i>
+                                                            </div>
+                                                  </div>
+
+                                        </div>
+                                        <div class="swiper-slide">
+                                                  <div class="box">
+                                                            <img src="images/p5.png" alt="">
+                                                            <h3>tristin gomez</h3>
+                                                            <p>This is the 1st time we have booked a holiday with
+                                                                      Travelonline and based on our experience this
+                                                                      time will certainly
+                                                                      have no hesitation booking another. Prices,
+                                                                      service and holiday options were excellent.
+                                                            </p>
+
+                                                            <div class="stars">
+                                                                      <i class="fa-solid fa-star"></i>
+                                                                      <i class="fa-solid fa-star"></i>
+                                                                      <i class="fa-solid fa-star"></i>
+                                                                      <i class="fa-solid fa-star"></i>
+                                                                      <i class="fa-regular fa-star"></i>
+                                                            </div>
+                                                  </div>
+
+                                        </div>
+                                        <div class="swiper-slide">
+                                                  <div class="box">
+                                                            <img src="images/p6.png" alt="">
+                                                            <h3>hanna bell</h3>
+                                                            <p>I was very impressed with the service and options
+                                                                      provided. The confidence in sending money, the
+                                                                      transfers, the holiday
+                                                                      itself and the return process as well. I felt
+                                                                      confident all the way that Nicole and company
+                                                                      would support if something
+                                                                      went wrong but it didn't. Thank you
+                                                            </p>
+
+                                                            <div class="stars">
+                                                                      <i class="fa-solid fa-star"></i>
+                                                                      <i class="fa-solid fa-star"></i>
+                                                                      <i class="fa-solid fa-star"></i>
+                                                                      <i class="fa-solid fa-star"></i>
+                                                                      <i class="fa-regular fa-star"></i>
+                                                            </div>
+                                                  </div>
+
+                                        </div>
+
+                              </div>
+                    </div>
+          </section>
+          <!-- review section ends  -->
+
+          <!-- contact section starts -->
+          <section class="contact" id="contact">
+                    <h1 class="heading">
+                              <span>c</span>
+                              <span>o</span>
+                              <span>n</span>
+                              <span>t</span>
+                              <span>a</span>
+                              <span>c</span>
+                              <span>t</span>
+                    </h1>
+
+                    <div class="row">
+
+                              <div class="image">
+                                        <img src="images/contactavif.avif" alt="">
+                              </div>
+                              <form action="">
+                                        <div class="inputBox">
+                                                  <input type="text" placeholder="name">
+                                                  <input type="email" placeholder="email">
+                                        </div>
+                                        <div class="inputBox">
+                                                  <input type="number" placeholder="number">
+                                                  <input type="text" placeholder="subject">
+                                        </div>
+                                        <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                                        <input type="submit" class="btn" value="send message">
+                              </form>
+                    </div>
+          </section>
+          <!-- contact section ends  -->
+
+          <!-- location section starts  -->
+          <section class="contact" id="contact">
+                    <h1 class="heading">
+                              <span>l</span>
+                              <span>o</span>
+                              <span>c</span>
+                              <span>a</span>
+                              <span>t</span>
+                              <span>i</span>
+                              <span>o</span>
+                              <span>n</span>
+                    </h1>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d947494.604392!2d78.425945931544!3d21.928753491406123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a261f16c67a8bad%3A0x5c23f412fb179d95!2sChhattisgarh!5e0!3m2!1sen!2sin!4v1707399010224!5m2!1sen!2sin"
+                              width="1100" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </section>
+          <!-- location section ends  -->
+
+          <!-- brand section starts  -->
+          <section class="brand-container">
+
+                    <div class="swiper-container brand-slider">
+                              <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><img src="images/b1avif.avif" style="height: 15rem;">
+                                        </div>
+                                        <div class="swiper-slide"><img src="images/b2.avif" style="height: 15rem;">
+                                        </div>
+                                        <div class="swiper-slide"><img src="images/b3.avif" style="height: 15rem;">
+                                        </div>
+                                        <div class="swiper-slide"><img src="images/b4.avif" style="height: 15rem;">
+                                        </div>
+                                        <div class="swiper-slide"><img src="images/b5.avif" style="height: 15rem;">
+                                        </div>
+                                        <div class="swiper-slide"><img src="images/b6.avif" style="height: 15rem;">
+                                        </div>
+                              </div>
+                    </div>
+          </section>
+          <!-- brand section ends  -->
+
+          <!-- footer section start  -->
+          <section class="footer">
+
+                    <div class="box-container">
+                              <div class="box">
+                                        <h3>about us</h3>
+                                        <p>We are here to help you in finding your desitination place.</p>
+                              </div>
+                              <div class="box">
+                                        <h3>branch location</h3>
+                                        <a href="#">india</a>
+                                        <a href="#">USA</a>
+                                        <a href="#">japan</a>
+                                        <a href="#">france</a>
+                              </div>
+                              <div class="box">
+                                        <h3>quick links</h3>
+                                        <a href="#">home</a>
+                                        <a href="#">book</a>
+                                        <a href="#">packages</a>
+                                        <a href="#">services</a>
+                                        <a href="#">gallery</a>
+                                        <a href="#">review</a>
+                                        <a href="#">contact/a>
+                              </div>
+                              <div class="box">
+                                        <h3>follow us</h3>
+                                        <a href="#">facebook</a>
+                                        <a href="#">twitter</a>
+                                        <a href="#">instagram</a>
+                                        <a href="#">linkedin</a>
+
+                              </div>
+                    </div>
+
+          </section>
+          <!-- footer section ends  -->
+
+
+          <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+          <script src="script.js"></script>
+
+</body>
+
+</html>
